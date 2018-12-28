@@ -23,7 +23,7 @@ namespace wsService
 
                 serviceHost.StartAutomatically();
                 serviceHost.SetDescription("Test Windows Service");
-                serviceHost.SetDisplayName("Test Windows Service");
+                serviceHost.SetDisplayName("Test Windows Service Feature 2");
                 serviceHost.SetServiceName("testWsService");
             });
         }
