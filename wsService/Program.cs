@@ -22,8 +22,8 @@ namespace wsService
                 );
 
                 serviceHost.StartAutomatically();
-                serviceHost.SetDescription("Test Windows Service t2");
-                serviceHost.SetDisplayName("Test Windows Service t2");
+                serviceHost.SetDescription("Test Windows Service");
+                serviceHost.SetDisplayName("Test Windows Service Feature1");
                 serviceHost.SetServiceName("testWsService");
             });
         }
